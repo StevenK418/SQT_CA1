@@ -29,11 +29,12 @@ steps:
 
 - task: VSTest@2
   inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\*test*.dll
+      !**\*TestAdapter.dll
+      !**\obj\**
+      **\InsuranceServiceTests.dll
+      !**\NUnit3.TestAdapter.dll
+    searchFolder: '$(System.DefaultWorkingDirectory)'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: test
-    projects: '/InsuranceServiceTests/InsuranceServiceTests.csproj'
-    arguments: '--configuration $(buildConfiguration)'
