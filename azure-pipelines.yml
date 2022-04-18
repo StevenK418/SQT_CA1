@@ -31,10 +31,7 @@ steps:
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
-      **\*test*.dll
-      !**\*TestAdapter.dll
-      !**\obj\**
-      **\InsuranceServiceTests.dll
-      !**\NUnit3.TestAdapter.dll
+      $(solution)\bin\Debug\InsuranceService\InsuranceServiceTests.dll
+      $(solution)\bin\Debug\InsuranceService\NUnit3.TestAdapter.dll
     searchFolder: '$(System.DefaultWorkingDirectory)'
 
