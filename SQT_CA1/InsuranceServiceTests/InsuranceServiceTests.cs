@@ -226,9 +226,9 @@ namespace InsuranceServiceTests
             return actualResult;
         }
 
-        // ------------ Rural | Boundary Values Consolidated tests --------------
+        // ------------ Urban | Boundary Values Consolidated tests --------------
         /// <summary>
-        /// Checks premium for ages within Boundary values for rural location.
+        /// Checks premium for ages within Boundary values for urban location.
         /// </summary>
         [TestCase(17, ExpectedResult = 0.0)]
         [TestCase(18, ExpectedResult = 6.0)]
