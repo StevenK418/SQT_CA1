@@ -4,5 +4,26 @@
     &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckRuralAgeBelowRange&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckRuralAgeWithinRange&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckRuralAgeAboveFirstRange&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckRuralAgeAboveFifty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesRural(37)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesRural(22)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesRural(10)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesRural&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesRural(55)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesUrban&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesUrban(10)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesUrban(22)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesUrban(37)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesUrban(55)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidLocation(55)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidLocation(37)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidLocation(22)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidLocation(10)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidLocation&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidFormat(55)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidFormat(37)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidFormat(22)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidFormat(10)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesInvalidFormat&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
