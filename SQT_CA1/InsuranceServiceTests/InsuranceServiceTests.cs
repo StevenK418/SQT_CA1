@@ -202,6 +202,52 @@ namespace InsuranceServiceTests
             return actualResult;
         }
 
-        
+
+        /*Boundary Value Test cases*/
+        // ------------ Rural | Boundary Values Consolidated tests --------------
+        /// <summary>
+        /// Checks premium for ages within Boundary values for rural location.
+        /// </summary>
+        [TestCase(17, ExpectedResult = 0.0)]
+        [TestCase(18, ExpectedResult = 5.0)]
+        [TestCase(30, ExpectedResult = 5.0)]
+        [TestCase(31, ExpectedResult = 2.5)]
+        [TestCase(49, ExpectedResult = 2.5)]
+        [TestCase(50, ExpectedResult = 0.375)]
+        public double CheckBoundaryValuesRural(int age)
+        {
+            //Arrange
+            InsuranceServiceProvider serviceProvider = new InsuranceServiceProvider();
+
+            //Act
+            double actualResult = serviceProvider.CalcPremium(age, "rural");
+
+            //Assert
+            return actualResult;
+        }
+
+        // ------------ Rural | Boundary Values Consolidated tests --------------
+        /// <summary>
+        /// Checks premium for ages within Boundary values for rural location.
+        /// </summary>
+        [TestCase(17, ExpectedResult = 0.0)]
+        [TestCase(18, ExpectedResult = 6.0)]
+        [TestCase(30, ExpectedResult = 6.0)]
+        [TestCase(36, ExpectedResult = 5.0)]
+        [TestCase(49, ExpectedResult = 5.0)]
+        [TestCase(50, ExpectedResult = 0.75)]
+        public double CheckBoundaryValuesUrban(int age)
+        {
+            //Arrange
+            InsuranceServiceProvider serviceProvider = new InsuranceServiceProvider();
+
+            //Act
+            double actualResult = serviceProvider.CalcPremium(age, "urban");
+
+            //Assert
+            return actualResult;
+        }
+
+
     }
 }
