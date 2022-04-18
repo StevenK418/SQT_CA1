@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("InsuranceServiceProvider")]
+[assembly: AssemblyTitle("InsuranceServiceTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("InsuranceServiceProvider")]
+[assembly: AssemblyProduct("InsuranceServiceTests")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b2c08263-24c1-4d16-889e-1505891ea5ec")]
+[assembly: Guid("54d8d9a4-e3b1-47b0-bcfc-129e1be2fd76")]
 
 // Version information for an assembly consists of the following four values:
 //
