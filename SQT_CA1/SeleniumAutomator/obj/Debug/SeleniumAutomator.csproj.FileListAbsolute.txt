@@ -1,0 +1,9 @@
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\bin\Debug\SeleniumAutomator.exe.config
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\bin\Debug\SeleniumAutomator.exe
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\bin\Debug\SeleniumAutomator.pdb
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\bin\Debug\WebDriver.dll
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\obj\Debug\SeleniumAutomator.csproj.AssemblyReference.cache
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\obj\Debug\SeleniumAutomator.csproj.CoreCompileInputs.cache
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\obj\Debug\SeleniumAutomator.csproj.CopyComplete
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\obj\Debug\SeleniumAutomator.exe
+C:\Users\steve\Documents\Repos\Github\SQT_CA1\SQT_CA1\SQT_CA1\SeleniumAutomator\obj\Debug\SeleniumAutomator.pdb
