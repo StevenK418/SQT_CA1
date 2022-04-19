@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InsuranceService
 {
-    public class InsuranceService
+    public class InsuranceServiceProvider
     {
         /// <summary>
         /// Calculates the premium based on a given age and location.
