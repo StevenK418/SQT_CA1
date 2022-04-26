@@ -142,107 +142,64 @@ namespace InsuranceServiceTests
             Assert.That(actualResult, Is.EqualTo(0.75));
         }
 
-        // ------------ Rural | Consolidated tests --------------
+        // ------------ Equivalence partitions | Consolidated tests --------------
         /// <summary>
-        /// Checks premium for rural users of multiple ages. 
+        /// Checks premium for several given ages within each individual location.
         /// </summary>
-        [TestCase(10, ExpectedResult = 0.0)]
-        [TestCase(22, ExpectedResult = 5.0)]
-        [TestCase(37, ExpectedResult = 2.50)]
-        [TestCase(55, ExpectedResult = 0.375)]
-        public double CheckMultipleAgesRural(int age)
+        /// <summary>
+        /// Checks premium for all users of multiple ages.
+        /// </summary>
+        [TestCase(-7, "rural", ExpectedResult = 0.0)]
+        [TestCase(10, "rural", ExpectedResult = 0.0)]
+        [TestCase(22, "rural", ExpectedResult = 5.0)]
+        [TestCase(37, "rural", ExpectedResult = 2.50)]
+        [TestCase(55, "rural", ExpectedResult = 0.375)]
+        [TestCase(-7, "urban", ExpectedResult = 0.0)]
+        [TestCase(10, "urban", ExpectedResult = 0.0)]
+        [TestCase(22, "urban", ExpectedResult = 6.0)]
+        [TestCase(37, "urban", ExpectedResult = 5.00)]
+        [TestCase(55, "urban", ExpectedResult = 0.75)]
+        [TestCase(-7, "london", ExpectedResult = 0.0)]
+        [TestCase(10, "london", ExpectedResult = 0.0)]
+        [TestCase(22, "london", ExpectedResult = 0.0)]
+        [TestCase(37, "london", ExpectedResult = 0.0)]
+        [TestCase(55, "london", ExpectedResult = 0.0)]
+        public double CheckMultipleAgesAndLocations(int age, string location)
         {
             //Arrange
             InsuranceServiceProvider serviceProvider = new InsuranceServiceProvider();
 
             //Act
-            double actualResult = serviceProvider.CalcPremium(age, "rural");
-
-            //Assert
-            return actualResult;
-        }
-
-        // ------------ Urban | Consolidated tests --------------
-        /// <summary>
-        /// Checks premium for urban users of multiple ages.
-        /// </summary>
-        [TestCase(10, ExpectedResult = 0.0)]
-        [TestCase(22, ExpectedResult = 6.0)]
-        [TestCase(37, ExpectedResult = 5.00)]
-        [TestCase(55, ExpectedResult = 0.75)]
-        public double CheckMultipleAgesUrban(int age)
-        {
-            //Arrange
-            InsuranceServiceProvider serviceProvider = new InsuranceServiceProvider();
-
-            //Act
-            double actualResult = serviceProvider.CalcPremium(age, "urban");
-
-            //Assert
-            return actualResult;
-        }
-
-        // ------------ Invalid location | Consolidated tests --------------
-        /// <summary>
-        /// Checks premium for ages within an invalid location.
-        /// </summary>
-        [TestCase(10, ExpectedResult = 0.0)]
-        [TestCase(22, ExpectedResult = 0.0)]
-        [TestCase(37, ExpectedResult = 0.0)]
-        [TestCase(55, ExpectedResult = 0.0)]
-        public double CheckMultipleAgesInvalidLocation(int age)
-        {
-            //Arrange
-            InsuranceServiceProvider serviceProvider = new InsuranceServiceProvider();
-
-            //Act
-            double actualResult = serviceProvider.CalcPremium(age, "London");
+            double actualResult = serviceProvider.CalcPremium(age, location);
 
             //Assert
             return actualResult;
         }
 
 
-        /*Boundary Value Test cases*/
-        // ------------ Rural | Boundary Values Consolidated tests --------------
+        // ------------  Boundary Values Consolidated tests --------------
         /// <summary>
-        /// Checks premium for ages within Boundary values for rural location.
+        /// Checks premium for ages within Boundary values for each location.
         /// </summary>
-        [TestCase(17, ExpectedResult = 0.0)]
-        [TestCase(18, ExpectedResult = 5.0)]
-        [TestCase(30, ExpectedResult = 5.0)]
-        [TestCase(31, ExpectedResult = 2.5)]
-        [TestCase(49, ExpectedResult = 2.5)]
-        [TestCase(50, ExpectedResult = 0.375)]
-        public double CheckBoundaryValuesRural(int age)
+        /// [TestCase(17, ExpectedResult = 0.0)]
+        [TestCase(18,"rural", ExpectedResult = 5.0)]
+        [TestCase(30,"rural", ExpectedResult = 5.0)]
+        [TestCase(31,"rural", ExpectedResult = 2.5)]
+        [TestCase(49,"rural", ExpectedResult = 2.5)]
+        [TestCase(50,"rural", ExpectedResult = 0.375)]
+        [TestCase( 17,"urban", ExpectedResult = 0.0)]
+        [TestCase(18, "urban", ExpectedResult = 6.0)]
+        [TestCase(30, "urban", ExpectedResult = 6.0)]
+        [TestCase(36, "urban", ExpectedResult = 5.0)]
+        [TestCase(49, "urban", ExpectedResult = 5.0)]
+        [TestCase(50, "urban", ExpectedResult = 0.75)]
+        public double CheckBoundaryValues(int age, string location)
         {
             //Arrange
             InsuranceServiceProvider serviceProvider = new InsuranceServiceProvider();
 
             //Act
-            double actualResult = serviceProvider.CalcPremium(age, "rural");
-
-            //Assert
-            return actualResult;
-        }
-
-        // ------------ Urban | Boundary Values Consolidated tests --------------
-        /// <summary>
-        /// Checks premium for ages within Boundary values for urban location.
-        /// </summary>
-        [TestCase(17, ExpectedResult = 0.0)]
-        [TestCase(18, ExpectedResult = 6.0)]
-        [TestCase(30, ExpectedResult = 6.0)]
-        [TestCase(36, ExpectedResult = 5.0)]
-        [TestCase(49, ExpectedResult = 5.0)]
-        [TestCase(50, ExpectedResult = 0.75)]
-        public double CheckBoundaryValuesUrban(int age)
-        {
-            //Arrange
-            InsuranceServiceProvider serviceProvider = new InsuranceServiceProvider();
-
-            //Act
-            double actualResult = serviceProvider.CalcPremium(age, "urban");
+            double actualResult = serviceProvider.CalcPremium(age, location);
 
             //Assert
             return actualResult;
