@@ -32,5 +32,21 @@
     &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckBoundaryValuesUrban(31)&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckBoundaryValuesUrban(49)&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckBoundaryValuesUrban(50)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(37,"london")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(22,"london")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(10,"london")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(-7,"london")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(55,"urban")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(37,"urban")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(22,"urban")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(10,"urban")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(-7,"urban")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(55,"rural")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(37,"rural")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(22,"rural")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(10,"rural")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(-7,"rural")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations(55,"london")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76::.NETFramework,Version=v4.7.2::InsuranceServiceTests.InsuranceServiceTests.CheckMultipleAgesAndLocations&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
