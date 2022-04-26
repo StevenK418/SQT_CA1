@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceService", "Insuran
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceServiceTests", "InsuranceServiceTests\InsuranceServiceTests.csproj", "{54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAutomator", "SeleniumAutomator\SeleniumAutomator.csproj", "{CE31F521-7803-4A1D-A0E6-37DD9F64392E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebForm", "SeleniumWebForm\SeleniumWebForm.csproj", "{8F40F0A2-62B1-4644-9396-EE497BB1F66D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +21,6 @@ Global
 		{54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D8D9A4-E3B1-47B0-BCFC-129E1BE2FD76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE31F521-7803-4A1D-A0E6-37DD9F64392E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE31F521-7803-4A1D-A0E6-37DD9F64392E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE31F521-7803-4A1D-A0E6-37DD9F64392E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE31F521-7803-4A1D-A0E6-37DD9F64392E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F40F0A2-62B1-4644-9396-EE497BB1F66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F40F0A2-62B1-4644-9396-EE497BB1F66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F40F0A2-62B1-4644-9396-EE497BB1F66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F40F0A2-62B1-4644-9396-EE497BB1F66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
